@@ -1,0 +1,22 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: sleep
+  namespace: authz-jwt
+spec:
+  hosts:
+  - sleep.authz-jwt.svc.cluster.local
+  gateways:
+  - authz-jwt-gateway
+  http:
+  - name: "sleep"
+    match:
+    - uri:
+        prefix: "/sleep"
+    rewrite:
+        uri: "/"
+    route:
+    - destination:
+        host: sleep.authz-jwt.svc.cluster.local
+        port:
+          number: 8000

@@ -1,0 +1,17 @@
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: "ratings-viewer"
+  namespace: book
+spec:
+  selector:
+    matchLabels:
+      app: ratings
+  action: ALLOW
+  rules:
+  - from:
+    - source:
+        principals: ["cluster.local/ns/book/sa/bookinfo-reviews"]
+    to:
+    - operation:
+        methods: ["GET"]

@@ -1,0 +1,8 @@
+# https://istio.io/latest/docs/tasks/security/authorization/authz-http/
+apiVersion: security.istio.io/v1beta1
+kind: AuthorizationPolicy
+metadata:
+  name: allow-nothing
+  namespace: book
+spec:
+  {}  
