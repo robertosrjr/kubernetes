@@ -6,3 +6,10 @@
 
 ### Redis configuration
 - https://redis.io/topics/config
+- https://redis.io/topics/sentinel
+
+
+### Downloads
+- sentinel.conf
+  - [download](https://download.redis.io/redis-stable/sentinel.conf)
+  - [github](https://github.com/redis/redis/blob/unstable/sentinel.conf)
