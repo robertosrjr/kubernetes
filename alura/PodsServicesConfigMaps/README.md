@@ -1,5 +1,5 @@
 ### [Alura](https://cursos.alura.com.br/) > DevOps > Cursos de Containers
-# Curso de Kubernetes: Pods, Services e ConfigMaps
+# [Curso de Kubernetes: Pods, Services e ConfigMaps](https://cursos.alura.com.br/course/kubernetes-pods-services-configmap)
 
 *Carga Horária: 8h*
 
