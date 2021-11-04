@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-storage-classes
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest
+      volumeMounts:
+        - mountPath: /volume-dentro-do-conteiner
+          name: segundo-pv
+  volumes:
+    - name: segundo-pv
+      persistentVolumeClaim:
+        claimName: pvc-storage-classes

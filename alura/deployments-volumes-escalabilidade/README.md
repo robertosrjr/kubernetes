@@ -5,10 +5,13 @@
 
 - Conhecendo ReplicaSets e Deployments;
 - Persistindo dados com o Kubernetes;
-  - PersistentVolume
-    - Types of Persistent Volumes: local - local storage devices mounted on nodes.
+  - [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
+    - Types of Persistent Volumes: [local](https://kubernetes.io/docs/concepts/storage/volumes/#local) - local storage devices mounted on nodes.
   - PersistentVolumeClaim
   - Pod (with persistentVolumeClaim)
 - Storage Classes e StatefulSets;
+  - [Storage Classes](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+    - [Provisionador](https://kubernetes.io/docs/concepts/storage/storage-classes/#provisioner)
+      - [Local](https://kubernetes.io/docs/concepts/storage/storage-classes/#local)
 - Checando status com Probes;
 - Como escalar com o Horizontal Pod Autoscaler;
