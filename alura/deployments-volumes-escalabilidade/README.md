@@ -3,8 +3,8 @@
 
 * Carga Horária: 8h *
 
-- Conhecendo ReplicaSets e Deployments Ver primeiro vídeo
-- Persistindo dados com o Kubernetes
-- Storage Classes e StatefulSets
-- Checando status com Probes
-- Como escalar com o Horizontal Pod Autoscaler
+- Conhecendo ReplicaSets e Deployments;
+- Persistindo dados com o Kubernetes;
+- Storage Classes e StatefulSets;
+- Checando status com Probes;
+- Como escalar com o Horizontal Pod Autoscaler;
