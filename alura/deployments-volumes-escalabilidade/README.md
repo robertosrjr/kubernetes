@@ -12,6 +12,6 @@
 - Storage Classes e StatefulSets;
   - [Storage Classes](https://kubernetes.io/docs/concepts/storage/storage-classes/)
     - [Provisionador](https://kubernetes.io/docs/concepts/storage/storage-classes/#provisioner)
-      - [Local](https://kubernetes.io/docs/concepts/storage/storage-classes/#local)
+      - [Local](https://kubernetes.io/docs/concepts/storage/storage-classes/#local) * Não funcionou
 - Checando status com Probes;
 - Como escalar com o Horizontal Pod Autoscaler;
